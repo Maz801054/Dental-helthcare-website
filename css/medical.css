@@ -1,0 +1,199 @@
+.fsize {
+  font-size: 35px;
+}
+.bigf {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.bigfc {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #6bd6d6 !important;
+}
+.darkblue {
+  color: rgb(17, 11, 72);
+}
+.bordarb {
+  border-bottom: 3px solid #6bd6d6 !important;
+}
+
+/* All mini statement */
+
+.image_sec {
+  background-image: url(../images/hero.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 95vw;
+}
+.image_contant {
+  padding-top: 110px;
+}
+.bigfc1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.btn-light {
+  margin-top: 10px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 0.5s ease-in;
+}
+.btn-light:hover {
+  transition: 0.5s ease-out;
+  background-color: transparent;
+}
+.modifai {
+  transition: 0.8s;
+}
+.modifai:hover {
+  transition: 0.8s;
+  background-color: chartreuse;
+  transform: rotate(365deg);
+}
+.Appointment {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.df {
+  display: flex;
+  flex-direction: column;
+}
+.fderection {
+  margin: 30px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 100px !important;
+  border-radius: 10px;
+}
+/* slidar css start now */
+.content-area {
+  position: relative;
+}
+.custom-overlay {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: green;
+  opacity: 0;
+  transition: all 40ms ease-in-out;
+  height: 70%;
+}
+.custom-overlay:hover {
+  opacity: 1;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 3%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 6px !important;
+  width: 60px !important;
+  background-color: #222 !important;
+  opacity: 0.8;
+  margin: 0 5px;
+  padding: 20px !important;
+  border-radius: 50px !important;
+}
+.owl-dot.active {
+  background-color: yellow !important;
+}
+.cardd {
+  border: 2px solid black;
+  padding: 20px 10px;
+  border-start-start-radius: 20px;
+  border-end-end-radius: 20px;
+}
+.cardd-img-top {
+  border: 2px solid black;
+  padding: 5px;
+  border-start-start-radius: 20px;
+  border-end-end-radius: 20px;
+}
+.btn-primary {
+  border-start-start-radius: 20px;
+  border-end-end-radius: 20px;
+}
+/* slidar css end now */
+
+/* slidar two css start now */
+.content-area {
+  position: relative;
+}
+.custom-overlay {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: green;
+  opacity: 0;
+  transition: all 40ms ease-in-out;
+  height: 70%;
+}
+.custom-overlay:hover {
+  opacity: 1;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 3%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 6px !important;
+  width: 60px !important;
+  background-color: #222 !important;
+  opacity: 0.8;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: yellow !important;
+}
+.cardsk {
+  border: 2px solid black;
+}
+.img-fluid {
+  width: 100% !important;
+  height: 280px !important;
+}
+.cardsk-title {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+.cardsk-body {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.cardsk-text {
+  font-size: 10px;
+}
+.fa-brands {
+  margin-left: 10px;
+  font-size: 20px;
+}
+/* slaidar two css end now */
+.round {
+  border-radius: 50%;
+  width: 150px !important;
+  height: 150px !important;
+}
+@media (min-width: 250px) and (max-width: 560px) {
+  .minid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 760px) and (max-width: 1230px) {
+  .minid {
+    margin-left: -200px;
+  }
+}

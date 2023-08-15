@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Dosis:wght@200&family=Oswald:wght@500&family=Permanent+Marker&family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  /> -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="../css/medical.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light ps-5 pe-5 pt-3 pb-3 fixed-top"
+      >
+        <div class="container-fluid">
+          <i class="fa-solid fa-house-medical fsize" style="color: #6bd6d6"></i>
+          <a class="navbar-brand bigf" style="font-size: 30px" href="#"
+            >MEDINOVA</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bigf">
+              <li class="nav-item">
+                <a
+                  class="nav-link active bordarb bigfc"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#service"
+                  >Service</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Pricing"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#ourdoc"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="image_sec container-fluid" id="home">
+      <div class="container image_contant text-white">
+        <h5 class="bigfc">WELCOME TO MEDINOVA</h5>
+        <h1 class="bigfc1">
+          BEST HEALTHCARE SOLUTION <br />
+          IN YOUR CITY
+        </h1>
+        <button type="button" class="btn btn-light"><a href="https://www.collegesearch.in/articles/types-of-doctor-mbbs-crs#:~:text=Cardiologists%2C%20audiologists%2C%20dentists%2C%20ENT,the%20various%20sorts%20of%20doctors." style="text-decoration: none; color: black;">Find Doctor</a></button>
+        <button type="button" class="btn btn-light"><a href="#appointment" style="text-decoration: none; color: black;"> Appointment</a></button>
+      </div>
+    </section>
+    <section class="aboutus mt-5" id="about">
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-6 col-lg-6 col-12 container container-fluid"
+        >
+          <img src="../images/about.jpg" class="container-fluid" alt="" />
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-lg-6 col-12 container container-fluid"
+        >
+          <div class="container-fluid">
+            <h5
+              class="bigfc"
+              style="border-bottom: 2px solid #6bd6d6; width: 100px"
+            >
+              ABOUT US
+            </h5>
+            <h1 class="bigf" style="font-size: 55px">
+              Best Medical Care For Yourself and Your Family
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              atque molestias ab, doloremque corporis debitis aliquid ad
+              necessitatibus hic sint impedit suscipit optio natus tempore
+              consectetur aspernatur error temporibus fugiat. Lorem, ipsum dolor
+              sit amet consectetur adipisicing elit. Repellat magnam error
+              veritatis. Atque adipisci ea officia molestias qui veniam error!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              praesentium.
+            </p>
+            <span class="d-flex minid mt-2 container-fluid">
+              <span
+                class="text-center me-3 mt-2 smals"
+                style="
+                  background-color: whitesmoke;
+                  border-radius: 50%;
+                  padding: 10px 20px;
+                "
+              >
+              <i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 20px;" ></i>
+              <h5 class="mt-2">Qualified</h5>
+              <h6 class="bigfc">Doctors</h6>
+            </span>
+            <span
+            class="text-center me-3 mt-2"
+            style="
+              background-color: whitesmoke;
+              border-radius: 50%;
+              padding: 10px 20px;
+            "
+          >
+          <i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 20px" ></i>
+              <h5 class="mt-2">Emergancy</h5>
+              <h6 class="bigfc">Service</h6>
+            </span>
+            <span
+            class="text-center me-3 mt-2"
+            style="
+              background-color: whitesmoke;
+              border-radius: 50%;
+              padding: 10px 25px;
+            "
+          >
+              <i class="fa-solid fa-microscope" style="color: #6bd6d6;font-size: 20px;"></i>
+              <h5 class="mt-2">Acurate</h5>
+              <h6 class="bigfc">Testing</h6>
+            </span>
+            <span
+            class="text-center me-3 mt-2"
+            style="
+              background-color: whitesmoke;
+              border-radius: 50%;
+              padding: 15px 25px;
+            "
+          >
+              <i class="fa-solid fa-truck-medical" style="color: #6bd6d6;font-size: 20px;"></i>
+              <h5 class="mt-2">Free</h5>
+              <h6 class="bigfc">Ambuliance</h6>
+            </span>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="Service mt-5" id="service">
+      <div class="text-center">
+        <h5 class="bigfc">SERVICE</h5>
+        <h1 class="bigf">Excellent Medical <br> Service</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card modifai" style="width: 18rem;border-radius: 10px !important;">
+              <div class="card-body text-center">
+                <h5 class="card-title"><i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 50px;" ></i></h5>
+                <h5 class="bigf pt-2">Emergancy Care</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card modifai" style="width: 18rem;border-radius: 10px !important;">
+              <div class="card-body text-center">
+                <h5 class="card-title"><i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 50px;" ></i></h5>
+                <h5 class="bigf pt-2">Emergancy Care</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card modifai" style="width: 18rem;border-radius: 10px !important;">
+              <div class="card-body text-center">
+                <h5 class="card-title"><i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 50px;" ></i></h5>
+                <h5 class="bigf pt-2">Emergancy Care</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card modifai" style="width: 18rem;border-radius: 10px !important;">
+              <div class="card-body text-center">
+                <h5 class="card-title"><i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 50px;" ></i></h5>
+                <h5 class="bigf pt-2">Emergancy Care</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card modifai" style="width: 18rem;border-radius: 10px !important;">
+              <div class="card-body text-center">
+                <h5 class="card-title"><i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 50px;" ></i></h5>
+                <h5 class="bigf pt-2">Emergancy Care</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card modifai" style="width: 18rem;border-radius: 10px !important;">
+              <div class="card-body text-center">
+                <h5 class="card-title"><i class="fa-solid fa-user-doctor" style="color: #6bd6d6;font-size: 50px;" ></i></h5>
+                <h5 class="bigf pt-2">Emergancy Care</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Appointment mt-5" id="Pricing">
+      <div class="row" style="background-color:#6bd6d6;">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <div class="m-5">
+              <h5 class="text-white bigf">Appointment</h5>
+              <h1 class="bigf mb-3 darkblue" style="font-size: 50px;">Make An Appointment For <br> Your Family</h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus impedit repellendus at dicta inventore minima. Aspernatur cumque exercitationem eius illo eos eaque dolorem quod fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod a corporis nemo facilis eius temporibus ex expedita aut nesciunt. Velit?
+              </p>
+              <button type="button" class="btn btn-light">Find Doctor</button>
+              <button type="button" class="btn btn-light">Read More</button>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 container-fluid">
+          <form class="row g-3 mt-5 fderection" >
+            <h1 class="text-center" id="appointment">Book An Appointment</h1>
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="email">
+            </div>
+            <div class="col-md-6">
+              <input type="password" class="form-control" id="inputPassword4" placeholder="password">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" id="inputAddress" placeholder="type Address">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="type Address">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="inputCity" placeholder="City">
+            </div>
+            <div class="col-md-4">
+              <select id="inputState" class="form-select">
+                <option selected>State</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-12 df">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="medicalpkg mt-5">
+      <div class="text-center mb-5">
+        <h5 class="bigfc">MEDICAL PACKAGES</h5>
+        <h1 class="bigf">Awesome Medical <br> Programs</h1>
+      </div>
+      <div class="container">
+        <div id="slider" class="owl-carousel">
+          <div class="content-area">
+            <div class="cardd" style="width: 22rem">
+              <img src="../images/blog-1.jpg" class="cardd-img-top" alt="..." />
+              <div class="cardd-body text-center">
+                <h5 class="cardd-title">Cardd title</h5>
+                <p class="cardd-text">
+                  Some quick example text to build on the cardd title and make up
+                  the bulk of the cardd's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="content-area">
+            <div class="cardd" style="width: 22rem">
+              <img src="../images/blog-2.jpg" class="cardd-img-top" alt="..." />
+              <div class="cardd-body text-center">
+                <h5 class="cardd-title">Cardd title</h5>
+                <p class="cardd-text">
+                  Some quick example text to build on the cardd title and make up
+                  the bulk of the cardd's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="content-area">
+            <div class="cardd" style="width: 22rem">
+              <img src="../images/blog-3.jpg" class="cardd-img-top" alt="..." />
+              <div class="cardd-body text-center">
+                <h5 class="cardd-title">Cardd title</h5>
+                <p class="cardd-text">
+                  Some quick example text to build on the cardd title and make up
+                  the bulk of the cardd's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="content-area">
+            <div class="cardd" style="width: 22rem">
+              <img src="../images/blog-1.jpg" class="cardd-img-top" alt="..." />
+              <div class="cardd-body text-center">
+                <h5 class="cardd-title">Cardd title</h5>
+                <p class="cardd-text">
+                  Some quick example text to build on the cardd title and make up
+                  the bulk of the cardd's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="content-area">
+            <div class="cardd" style="width: 22rem">
+              <img src="../images/blog-2.jpg" class="cardd-img-top" alt="..." />
+              <div class="cardd-body text-center">
+                <h5 class="cardd-title">Cardd title</h5>
+                <p class="cardd-text">
+                  Some quick example text to build on the cardd title and make up
+                  the bulk of the cardd's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="content-area">
+            <div class="cardd" style="width: 22rem">
+              <img src="../images/blog-3.jpg" class="cardd-img-top" alt="..." />
+              <div class="cardd-body text-center">
+                <h5 class="cardd-title">Cardd title</h5>
+                <p class="cardd-text">
+                  Some quick example text to build on the cardd title and make up
+                  the bulk of the cardd's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+   <section>
+     <div class="text-center mb-5 mt-5" id="ourdoc">
+      <h5 class="bigfc">OUR DOCTOR</h5>
+      <h1 class="bigf">Qualified Healthcare <br> Professionals</h1>
+     </div>
+     <div class="container">
+      <div id="slider1" class="owl-carousel">
+        <div class="content-area">
+          <div class="cardsk mb-4" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img
+                  src="../images/price-1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="cardsk-body">
+                  <h5 class="cardsk-title">Doctor Name</h5>
+                  <h6>Cardskiology Specialist</h6>
+                  <p class="cardsk-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Cupiditate delectus qui necessitatibus amet doloribus aut.
+                  </p>
+                  <div>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardsk mb-4" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img
+                  src="../images/price-2.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="cardsk-body">
+                  <h5 class="cardsk-title">Doctor Name</h5>
+                  <h6>Cardskiology Specialist</h6>
+                  <p class="cardsk-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Cupiditate delectus qui necessitatibus amet doloribus aut.
+                  </p>
+                  <div>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardsk mb-4" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img
+                  src="../images/price-3.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="cardsk-body">
+                  <h5 class="cardsk-title">Doctor Name</h5>
+                  <h6>Cardskiology Specialist</h6>
+                  <p class="cardsk-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Cupiditate delectus qui necessitatibus amet doloribus aut.
+                  </p>
+                  <div>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardsk mb-4" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img
+                  src="../images/price-4.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="cardsk-body">
+                  <h5 class="cardsk-title">Doctor Name</h5>
+                  <h6>Cardskiology Specialist</h6>
+                  <p class="cardsk-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Cupiditate delectus qui necessitatibus amet doloribus aut.
+                  </p>
+                  <div>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <section class="finddoctor mt-5 " style="background-color:#6bd6d6; padding: 20px 20px !important; ">
+    <div class="text-center mb-5 mt-5">
+      <h5 class="text-white bigf">FIND A DOCTOR</h5>
+      <h1 class="bigf darkblue">Find A Healthcare <br> Professionals </h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sed obcaecati quos, suscipit <br> doloribus saepe unde nobis ipsum eos velit. <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, laborum.</p>
+      <div>
+        <form class="d-flex justify-content-center md-2">
+          <div class="dropdown me-2 rounded">
+            <button class="bkt dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Department
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <input class="me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+     </div>
+   </section>
+   <section class="testimonial">
+    <div class="text-center mb-5 mt-5">
+      <h5 class="bigfc">TESTIMONIAL</h5>
+      <h1 class="bigf">Potients Say About <br> Our Service</h1>
+      <img src="../images/testimonial-1.jpg" class="img-fluid round" alt="...">
+      <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad vitae omnis natus nihil error <br> praesentium, nobis atque exercitationem ipsa fugit magnam suscipit ipsum enim incidunt architecto minus repellat reiciendis.</p>
+      <h6 class="bigf">Patient Name</h6>
+     </div>
+   </section>
+   <div class="1to4" style="height: 5px; background-color: black;">
+
+   </div>
+   <section>
+    <div class="text-center mb-5 mt-5">
+      <h5 class="bigfc">BLOG POST</h5>
+      <h1 class="bigf">Our Latest Medical <br> Blog Posts</h1>
+    </div>
+    <div class="container">
+      <div id="slider3" class="owl-carousel">
+        <div class="content-area">
+          <div class="cardd" style="width: 22rem">
+            <img src="../images/blog-1.jpg" class="cardd-img-top" alt="..." />
+            <div class="cardd-body text-center">
+              <h5 class="cardd-title">Cardd title</h5>
+              <p class="cardd-text">
+                Some quick example text to build on the cardd title and make up
+                the bulk of the cardd's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardd" style="width: 22rem">
+            <img src="../images/blog-2.jpg" class="cardd-img-top" alt="..." />
+            <div class="cardd-body text-center">
+              <h5 class="cardd-title">Cardd title</h5>
+              <p class="cardd-text">
+                Some quick example text to build on the cardd title and make up
+                the bulk of the cardd's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardd" style="width: 22rem">
+            <img src="../images/blog-3.jpg" class="cardd-img-top" alt="..." />
+            <div class="cardd-body text-center">
+              <h5 class="cardd-title">Cardd title</h5>
+              <p class="cardd-text">
+                Some quick example text to build on the cardd title and make up
+                the bulk of the cardd's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardd" style="width: 22rem">
+            <img src="../images/blog-1.jpg" class="cardd-img-top" alt="..." />
+            <div class="cardd-body text-center">
+              <h5 class="cardd-title">Cardd title</h5>
+              <p class="cardd-text">
+                Some quick example text to build on the cardd title and make up
+                the bulk of the cardd's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardd" style="width: 22rem">
+            <img src="../images/blog-2.jpg" class="cardd-img-top" alt="..." />
+            <div class="cardd-body text-center">
+              <h5 class="cardd-title">Cardd title</h5>
+              <p class="cardd-text">
+                Some quick example text to build on the cardd title and make up
+                the bulk of the cardd's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="cardd" style="width: 22rem">
+            <img src="../images/blog-3.jpg" class="cardd-img-top" alt="..." />
+            <div class="cardd-body text-center">
+              <h5 class="cardd-title">Cardd title</h5>
+              <p class="cardd-text">
+                Some quick example text to build on the cardd title and make up
+                the bulk of the cardd's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+   </section>
+   <section class="footar" style="background-color: rgb(17, 11, 72);" id="contact">
+    <div class="container" style="padding: 60px;">
+      <div class="row text-white">
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <h4 class="bigfc">Shop & Learn</h4>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            123 start new your , usa
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            info@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            +102 354 526 789
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <h4 class="bigfc">Orange Store</h4>
+          <p>
+            <i class="fa-solid fa-chevron-right"></i>
+            Home
+          </p>
+          <p>
+            <i class="fa-solid fa-chevron-right"></i>
+            About
+          </p>
+          <p>
+            <i class="fa-solid fa-chevron-right"></i>
+            Service
+           </p>
+          <p>
+            <i class="fa-solid fa-chevron-right"></i>
+            Meat the team
+          </p>
+          <p>
+            <i class="fa-solid fa-chevron-right"></i>
+            Order Status</p>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <h4 class="bigfc">Education & Business</h4>
+          <p><i class="fa-solid fa-chevron-right"></i> Mucis</p>
+          <p><i class="fa-solid fa-chevron-right"></i> movies</p>
+          <p><i class="fa-solid fa-chevron-right"></i> shows</p>
+          <p><i class="fa-solid fa-chevron-right"></i> Apps</p>
+          <p><i class="fa-solid fa-chevron-right"></i> Gift Cards</p>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <h4 class="bigfc">About Orange</h4>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <p></p>
+          <p class="bigfc">Follo Us</p>
+          <p></p>
+          <p>
+            <div class="bigfc">
+              <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous">
+  </script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"
+  integrity="sha512-Pa4Jto+LuCGBHy2/POQEbTh0reuoiEXQWXGn8S7aRlhcwpVkO8+4uoZVSOqUjdCsE+77oygfu2Tl+7qGHGIWsw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>
+  $("#slider").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+</script>
+<script>
+  $("#slider1").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+    },
+  });
+</script>
+<script>
+  $("#slider3").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+</script>
+  </body>
+</html>
